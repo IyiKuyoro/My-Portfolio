@@ -3,7 +3,7 @@ const kidMath = document.getElementById('kid-math');
 const pixelArt = document.getElementById('pixel-art');
 
 appify.addEventListener('click', () => {
-  window.location.href = '#';
+  window.location.href = 'https://github.com/IyiKuyoro/My-Portfolio';
 });
 
 kidMath.addEventListener('click', () => {
