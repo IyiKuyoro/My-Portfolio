@@ -8,6 +8,7 @@ The project is built as the first project towards the completion of my Front-End
 This project was built using the following languages
   * HTML5 - I used semantic HTML5 to give meaning to the elements of the page
   * CSS3 - I have also added some basic styling and responsiveness to the page using CSS3
+  * JavaScript (es6) - Used to add some event listeners to the dom
   
 # Collaboration
 I am currently not accepting requests to collaborate on this project, however, your feedback is most welcome.
