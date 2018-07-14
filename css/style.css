@@ -1,0 +1,109 @@
+body {
+  font-family: calibri, "Gill Sans";
+}
+
+h1, h2, h4 {
+  margin: 0;
+  font-weight: lighter;
+}
+
+.works-header {
+  margin: 10px 0 10px 0;
+  color: #686868;
+  width: 100%;
+  text-align: center;
+}
+
+.heading {
+  border-bottom: 2px solid #7d97ad;
+}
+
+.pad {
+  padding: 1.2em;
+}
+
+.wrap-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 15%;
+  min-width: 50px;
+  max-width: 100px;
+  height: 100%;
+  padding: 1%;
+}
+
+.info {
+  text-align: right;
+  width: 83%;
+}
+
+.content {
+  margin-top: 15px;
+}
+
+.images {
+  width: 100%;
+}
+
+.works {
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.project {
+  width: 80%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.project:last-of-type {
+  margin-bottom: 0;
+}
+
+.link {
+  font-size: 12px;
+  margin: 0;
+}
+
+@media screen and (min-width: 460px) {
+  .project {
+    width: calc((100% - 20px) / 3);
+    margin: 0 10px 0 0;
+  }
+
+  .project:last-of-type {
+    margin-right: 0;
+  }
+
+  .works-header {
+    text-align: left;
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  h1 {
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 387px) {
+  .wrap-container {
+    justify-content: center;
+  }
+
+  .info {
+    text-align: center;
+  }  
+}
+
+@media screen and (min-width: 750px) {
+  .wrap-container, .content {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
