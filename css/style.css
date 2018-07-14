@@ -2,7 +2,7 @@ body {
   font-family: calibri, "Gill Sans";
 }
 
-h1, h2, h4 {
+h1, h2, h3, h4, p {
   margin: 0;
   font-weight: lighter;
 }
@@ -42,6 +42,25 @@ h1, h2, h4 {
 
 .content {
   margin-top: 15px;
+}
+
+.caption {
+  background-image: url(../img/main_image.jpg);
+  background-size: cover;
+  height: 360px;
+  align-items: flex-end;
+}
+
+.quote {
+  padding: 15px 15px 20px 15px;
+  font-weight: bold;
+  text-align: right;
+  background-color: rgb(255, 255, 255, 0.8);
+  width: 100%;
+}
+
+.caption-quote {
+  margin-bottom: 10px;
 }
 
 .images {
@@ -105,7 +124,7 @@ h1, h2, h4 {
     justify-content: center;
   }
 
-  .info {
+  .info, .quote {
     text-align: center;
   }
 }
