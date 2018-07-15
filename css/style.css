@@ -120,6 +120,12 @@ p {
   }
 }
 
+@media screen and (max-width: 204px) {
+  .project {
+    min-width: 100%;
+  }
+}
+
 @media screen and (min-width: 750px) {
   .wrap-container,
   .content {
