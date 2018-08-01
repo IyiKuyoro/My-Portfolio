@@ -1,10 +1,10 @@
-const appify = document.getElementById('appify');
+const memoryGame = document.getElementById('memory-game');
 const kidMath = document.getElementById('kid-math');
 const pixelArt = document.getElementById('pixel-art');
 
-appify.addEventListener('click', () => {
+memoryGame.addEventListener('click', () => {
   // This code was gotten from StackOverflow --> https://stackoverflow.com/questions/4907843/open-a-url-in-a-new-tab-and-not-a-new-window-using-javascript
-  const win = window.open('https://github.com/IyiKuyoro/My-Portfolio', '_blank');
+  const win = window.open('https://github.com/IyiKuyoro/Memory-Game', '_blank');
   win.focus();
 });
 
