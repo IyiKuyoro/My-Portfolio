@@ -1,8 +1,5 @@
 # My-Portfolio
-This is a simple web-page that outlines projects I have worked one.
-
-# Motivation
-The project is built as the first project towards the completion of my Front-End Web Developer Nano Degree Program, provided by Udacity, sponsored by Google and supported by Andela.
+This is a simple web-page that outlines some projects I have worked one. You can view the live page [Here](https://iyikuyoro.github.io/My-Portfo…)
 
 # Languages Used
 This project was built using the following languages
