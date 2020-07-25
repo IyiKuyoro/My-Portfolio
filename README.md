@@ -1,5 +1,5 @@
 # My-Portfolio
-This is a simple web-page that outlines some projects I have worked one. You can view the live page [Here](https://iyikuyoro.github.io/My-Portfolio/)
+This is a simple web-page that outlines some projects I have worked one.)
 
 # Languages Used
 This project was built using the following languages
